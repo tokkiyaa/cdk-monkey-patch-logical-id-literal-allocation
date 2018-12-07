@@ -1,0 +1,22 @@
+{
+  "name": "@tokkiyaa/cdk-monkey-patch-logical-id-literal-allocation",
+  "version": "0.19.1",
+  "description": "Monkey patch to avoid Resources's Logical ID transformations when using aws-cdk",
+  "main": "index.js",
+  "devDependencies": {
+    "aws-cdk": "0.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tokkiyaa/cdk-monkey-patch-logical-id-literal-allocation.git"
+  },
+  "keywords": [
+    "aws-cdk"
+  ],
+  "author": "tokkiyaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tokkiyaa/cdk-monkey-patch-logical-id-literal-allocation/issues"
+  },
+  "homepage": "https://github.com/tokkiyaa/cdk-monkey-patch-logical-id-literal-allocation"
+}
