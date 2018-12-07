@@ -11,10 +11,15 @@ This is verbose, further, to write this, we have to calculate hash.
 
 This packcage is a workaround to avoid writing `aws-cdk.Stack.renameLogical` for every resources.
 
-## Usage
+## install
+```bash
+npm install @tokkiyaa/cdk-monkey-patch-logical-id-literal-allocation
 ```
+
+## Usage
+```typescript
 const cdkMonkeyPatch = require('@tokkiyaa/cdk-monkey-patch-logical-id-literal-allocation');
 cdkMonkeyPatch.patch(require('@aws-cdk/cdk/lib/util/uniqueid'));
 ```
 
-- [see example](./example/bin/example.ts)
+- [see example](https://github.com/tokkiyaa/cdk-monkey-patch-logical-id-literal-allocation/blob/master/example/bin/example.ts)
