@@ -4,7 +4,7 @@
   "description": "Monkey patch to avoid Resources's Logical ID transformations when using aws-cdk",
   "main": "index.js",
   "devDependencies": {
-    "aws-cdk": "0.19.0"
+    "aws-cdk": "1.36.0"
   },
   "repository": {
     "type": "git",
